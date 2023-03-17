@@ -1,0 +1,146 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+body{
+    background-color: floralwhite;
+}
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul{
+    background-color:rgb(153, 186, 221);
+    margin: 0;
+    list-style-type:none;
+    width:100%;
+    padding: 20px;
+
+}
+
+nav{
+    display: block;
+    color: white; 
+}
+
+nav a{
+    color:#999999; 
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: cyan
+}
+
+.hero-image{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,.4)),url("../images/metaknight.jpg");
+    height: 50%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-text{
+    color:rgb(250, 54, 54);
+    text-align:Center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+
+#main{
+    width: 75%;
+    float:left;
+    height:100%;
+    padding-left:20px;
+    padding-top: 20px;
+}
+
+#side{
+    width:20%;
+    float: right;
+    height:100%;
+    padding:20px;
+}
+
+#profile-image{
+    width:100px;
+    border-radius: 50%;
+    border:5px solid whitesmoke;
+}
+
+#profile{
+    text-align:center;
+}
+
+.side-articles ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#profile h2{
+    display:inline;
+}
+#profile-details{
+    margin-right:10px;
+    text-align:center;
+}
+
+.side-articles, .mainarticles{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.side-articles{
+    background-color: silver;
+    text-align:center;
+}
+
+.mainarticles{
+    background-color: rgb(232, 145, 39);
+
+}
+
+form{
+    margin-top:20px;
+}
+
+textarea, input{
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.side-articles h1{
+    url(../image)
+    margin-bottom: 20px;
+}
+
+footer{
+    bottom:0px;
+    width: 100%;
+    background-color: aliceblue;
+    height:5vh;
+    margin-top: 0px;
+}
+footer div{
+    text-align: center;
+    color: wheat;
+}
+
+main{
+    overflow:auto;
+}
+
+footer hr{
+    margin-top: 0px;
+    height: 12px;
+    border: 0px;
+    box-shadow: inset 0 12px - 12px white;
+}
